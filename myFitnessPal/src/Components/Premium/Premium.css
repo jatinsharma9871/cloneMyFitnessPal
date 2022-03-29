@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+    background-image: url("https://www.myfitnesspal.com/react-static/78a85ff61ae51bacb70e2839935c0b84.svg");
+    font-family: "Neue Plak UA", Helvetica, Arial, -apple-system, sans-serif;
+    line-height: 1.5;
+}
+.jss78 {
+    padding-top: 0;
+    padding-bottom: 0;
+    background-size: 330px 548px;
+    background-image: url("https://www.myfitnesspal.com/react-static/d25745179dd7595c07dc1f9b09b89efa.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-position-x: right;
+    background-position-y: top;
+}
+.jss79 {
+    width: 100%;
+    margin: 0px auto 48px;
+    display: flex;
+    max-width: 890px;
+    justify-content: space-between;
+}
+.app-img{
+    width:411px;
+    padding-top: 32px;
+}
+.jss90 {
+    color: #222628;
+    display: inline-block;
+    padding: 4px 12px;
+    font-size: 0.875rem;
+    background: #FFC600;
+    font-weight: 600;
+    line-height: 1.4;
+    border-radius: 6.6px;
+    margin-bottom: 0;
+    letter-spacing: 0.25px;
+    text-transform: uppercase;
+}
+.MuiTypography-root+h1{
+    color: #222628;
+    font-family: "Neue Plak UA", Helvetica, Arial, -apple-system, sans-serif;
+}
+.left-div{
+    width: 376px;
+    height: 495px;
+    padding-top: 64px;
+}
+.free-trial-btn{
+    color: #FFF;
+    background-color: #0066EE;
+    padding: 8px 24px;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 4px;
+    font-size: 16px;
+}
+.free-trial-btn:hover{
+    
+    box-sizing: border-box;
+    background-color: blue;
+    cursor: pointer;
+}
+.second{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.second>div{
+    width:300px;
+}
+.second>div>img{
+    width:160px;
+    height: 160px;
+}
+
+
+
+.jss140 {
+    background: url("https://www.myfitnesspal.com/react-static/5505f9a4cc71985801691b723cf64d9a.png") top right no-repeat, url("https://www.myfitnesspal.com/react-static/b96cec4f94f4413f2891c9bde43f3bcc.png") bottom left no-repeat;
+    padding-bottom: 200px;
+    background-size: 350px 819px, 169px 217px;
+}
