@@ -7,7 +7,7 @@ input {
   margin: 0px;
 }
 
-#signUp {
+.signUp {
   box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
   background-color: #ffffff;
   /* border: 1px solid black; */
@@ -18,7 +18,11 @@ input {
   width: 30%;
 }
 
-#myForm {
+h5 {
+  padding-top: 10px;
+}
+
+.myForm {
   margin: auto;
   margin-bottom: 0px;
   padding-top: 10px;
@@ -31,11 +35,11 @@ input {
   font-size: 10px;
 }
 
-#label2 {
+.label2 {
   font-size: 12px;
 }
 
-#btn {
+.btn {
   margin-top: 10px;
   font-size: 10px;
   border: transparent;
@@ -69,7 +73,16 @@ span {
   color: #2490fe;
 }
 
-h5{
+h5 {
   margin: auto;
   width: 70%;
+}
+
+#name,
+#age,
+#height,
+#weight,
+#email,
+#password {
+  width: 90%;
 }

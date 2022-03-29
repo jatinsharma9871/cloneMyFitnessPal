@@ -1,0 +1,13 @@
+{
+  "users": [
+    {
+      "name": "vikash",
+      "age": "25",
+      "height": "6",
+      "weight": "150",
+      "email": "vikashvashistha278@gmail.com",
+      "password": "654",
+      "id": 1
+    }
+  ]
+}
