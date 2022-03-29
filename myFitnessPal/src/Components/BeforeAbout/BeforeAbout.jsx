@@ -1,9 +1,9 @@
 import React from "react";
+import './BeforeAbout.css'
 
 function BeforeAbout() {
   return (
-    <div
-      style={{
+    <div className="main_div"  style={{
         display: "flex",
         textAlign: "left",
         margin: "150px",
@@ -11,8 +11,7 @@ function BeforeAbout() {
         fontSize: "14px",
             lineHeight: "18px",
             fontFamily: "Arial",
-      }}
-    >
+      }} >
       <div style={{ border: "1px solid red", width: "70%" }}>
         <h2 className="main-title">
           Lose Weight with MyFitnessPal.com — for FREE!
@@ -106,6 +105,7 @@ function BeforeAbout() {
       </div>
       <div style={{ border: "1px solid red", width: "30%" }}>BeforeAbout</div>
     </div>
+   
   );
 }
 
