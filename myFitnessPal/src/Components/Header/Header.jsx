@@ -1,9 +1,17 @@
-import React from 'react'
+import React from "react";
+import {SignUp} from "./SignUp"
+import "./Header.css";
 
 function Header() {
+  const handleChange = (e) => {
+    /////
+  };
+
   return (
-    <div>Header</div>
-  )
+    <div>
+      <SignUp/>
+    </div>
+  );
 }
 
-export default Header
+export { Header };
