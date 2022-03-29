@@ -8,7 +8,16 @@ function SignUp() {
 
   return (
     <div id="signUp">
+      <h5>Almost there! Create your account</h5>
       <form id="myForm">
+        <input id="name" placeholder="Name" onChange={handleChange} />
+        <br />
+        <input id="age" placeholder="Age" onChange={handleChange} />
+        <br />
+        <input id="hight" placeholder="Hight" onChange={handleChange} />
+        <br />
+        <input id="weight" placeholder="Weight" onChange={handleChange} />
+        <br />
         <input id="email" placeholder="Email address" onChange={handleChange} />
         <br />
         <input
@@ -26,7 +35,8 @@ function SignUp() {
         <label id="label2">Terms & Conditions</label>
         <br />
         <label className="label">
-          I agree to MyFitnessPal's <span>Terms</span> & Conditions and <span>Privacy Policy</span>.
+          I agree to MyFitnessPal's <span>Terms</span> & Conditions and{" "}
+          <span>Privacy Policy</span>.
         </label>
         <br />
         <input type="submit" value="CONTINUE" id="btn" />

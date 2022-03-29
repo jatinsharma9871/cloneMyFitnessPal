@@ -21,9 +21,9 @@ input {
 #myForm {
   margin: auto;
   margin-bottom: 0px;
-  padding-top: 20px;
+  padding-top: 10px;
   /* border: 1px solid red; */
-  width: 50%;
+  width: 60%;
 }
 
 .label {
@@ -51,7 +51,7 @@ button {
   margin-bottom: 5px;
   font-size: 10px;
   border: transparent;
-  width: 50%;
+  width: 60%;
   height: 25px;
   border-radius: 2px;
   background-color: #0066ee;
@@ -67,4 +67,9 @@ p {
 
 span {
   color: #2490fe;
+}
+
+h5{
+  margin: auto;
+  width: 70%;
 }
