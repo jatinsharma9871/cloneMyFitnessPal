@@ -4,7 +4,6 @@ import { useState } from "react";
 import axios from "axios"
 
 function SignUp() {
-  const [data, setData] = useState([]);
   const [formData, setFormData] = useState({
     "name": "",
     "age": "",
