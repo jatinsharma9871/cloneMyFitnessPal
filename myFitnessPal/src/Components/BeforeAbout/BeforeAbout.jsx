@@ -1,30 +1,15 @@
 import React from "react";
-import './BeforeAbout.css'
+import "../BeforeAbout/BeforeAbout.css";
 
 function BeforeAbout() {
   return (
-    <div className="main_div"  style={{
-        display: "flex",
-        textAlign: "left",
-        margin: "150px",
-        marginTop: "10px",
-        fontSize: "14px",
-            lineHeight: "18px",
-            fontFamily: "Arial",
-      }} >
-      <div style={{ border: "1px solid red", width: "70%" }}>
-        <h2 className="main-title">
+    <div className="main_div">
+      <div className="chiled_div1">
+        <h3 className="main-title">
           Lose Weight with MyFitnessPal.com — for FREE!
-        </h2>
+        </h3>
         <hr />
-        <div
-          style={{
-            fontSize: "14px",
-            lineHeight: "18px",
-            marginBottom: "18px",
-            fontFamily: "Arial",
-          }}
-        >
+        <div>
           <p>
             Losing weight isn't easy - we know. But with a membership to
             MyFitnessPal.com, you'll get the tools you need to successfully take
@@ -48,17 +33,7 @@ function BeforeAbout() {
             you are to succeed in your weight loss goals.
           </p>
         </div>
-        <div
-          style={{
-            display: "flex",
-            height: "250px",
-            backgroundColor: "#f6f6f6",
-            border: "1px solid red",
-            marginTop: "60px",
-            marginBottom: "60px",
-            gap: "30px",
-          }}
-        >
+        <div className="chiled_div2">
           <div>
             <img
               src="https://www.myfitnesspal.com/assets/img-about-us.png"
@@ -66,10 +41,7 @@ function BeforeAbout() {
             />
           </div>
           <div>
-            <h4 style={{ color: "blue", fontSize: "14px",
-            lineHeight: "18px",
-            marginBottom: "18px",
-            fontFamily: "Arial", }}>How does it work?</h4>
+            <h4 style={{ color: "rgb(10,82,138)" }}>How does it work?</h4>
             <p>
               The reason our system is so easy to use is because{" "}
               <strong>it learns from you!</strong> remembers what you've eaten
@@ -78,34 +50,103 @@ function BeforeAbout() {
             </p>
           </div>
         </div>
-          <h4 style={{color:"blue"}}>With a FREE membership you get:</h4>
-          <ul style={{listStyleType:"disc"}}>
-              <li>
-                  <span><strong>The easiest to use food diary on the web -</strong>Track what you eat with just a few clicks from anywhere with an internet connection - at home or at work</span>
-              </li>
-              <li>
-                  <span><strong>  A searchable food database of over 300,000,000 items -</strong>  and it's growing every day!</span>
-              </li>
-              <li>
-                  <span><strong>Your own personal food database -</strong>add your own foods and recipes at any time and access them from anywhere with an internet connection</span>
-              </li>
-              <li>
-                  <span><strong>Free mobile apps for iPhone and Android -</strong>so you can log your meals and exercise even when you are on the go</span>
-              </li>
-              <li>
-                  <span><strong>Support and motivation  </strong>from people just like you - Our discussion forums let you learn from others, share your own tips, receive and give encouragement, and make friends.</span>
-              </li>
-              <li>
-                  <span><strong>A personalized diet profile</strong>- customized to your unique weight loss goals.</span>
-              </li>
-              <li>
-                  <span><strong>Support and motivation  </strong>- our system can support any diet like Atkins, the South Beach Diet, the Zone, and more. No matter what diet you're on, we can help.</span>
-              </li>
-          </ul>
+        <h4 style={{ color: "blue" }}>With a FREE membership you get:</h4>
+        <ul style={{ listStyleType: "disc" }}>
+          <li>
+            <span>
+              <strong>The easiest to use food diary on the web -</strong>Track
+              what you eat with just a few clicks from anywhere with an internet
+              connection - at home or at work
+            </span>
+          </li>
+          <li>
+            <span>
+              <strong>
+                {" "}
+                A searchable food database of over 300,000,000 items -
+              </strong>{" "}
+              and it's growing every day!
+            </span>
+          </li>
+          <li>
+            <span>
+              <strong>Your own personal food database -</strong>add your own
+              foods and recipes at any time and access them from anywhere with
+              an internet connection
+            </span>
+          </li>
+          <li>
+            <span>
+              <strong>Free mobile apps for iPhone and Android -</strong>so you
+              can log your meals and exercise even when you are on the go
+            </span>
+          </li>
+          <li>
+            <span>
+              <strong>Support and motivation </strong>from people just like you
+              - Our discussion forums let you learn from others, share your own
+              tips, receive and give encouragement, and make friends.
+            </span>
+          </li>
+          <li>
+            <span>
+              <strong>A personalized diet profile</strong>- customized to your
+              unique weight loss goals.
+            </span>
+          </li>
+          <li>
+            <span>
+              <strong>Support and motivation </strong>- our system can support
+              any diet like Atkins, the South Beach Diet, the Zone, and more. No
+              matter what diet you're on, we can help.
+            </span>
+          </li>
+        </ul>
+        <h3 className="main-title">
+          Don't wait! Start losing weight the healthy way - all for FREE!
+        </h3>
+        <div className="chiled_div3">
+          <div>
+            {/* <img
+              src="https://www.myfitnesspal.com/assets/img-about-us.png"
+              alt=""
+            /> */}
+          </div>
+          <div>
+            <p>
+              All the tools you need for healthy, sustainable weight loss are
+              right at your fingertips - and you'll never have to pay a cent! So
+              what are you waiting for? Stop wasting money on other dieting
+              programs.
+              <strong>
+                Join today and get on the path to healthier living!
+              </strong>
+            </p>
+            <button className="btnn">Join Now For FREE!</button>
+          </div>
+        </div>
       </div>
-      <div style={{ border: "1px solid red", width: "30%" }}>BeforeAbout</div>
+      <div className="side_bar" >
+        <div className="form">
+          <div className="inside_div">
+            <span><strong>Member Login</strong></span>
+            <div className="fb">Log in with facebook</div>
+            <br />
+            <div style={{textAlign:"center"}}>or</div>
+            <br />
+            <span>Username:</span>
+            <input type="text" />
+            <span>Password:</span>
+            <input type="password" />
+            <input type="checkbox" className="checkme"/><span>Remember me</span>
+            <input type="button" value={"Log In"}/>
+
+          </div>
+        </div>
+        <span className="forgotname">Forgot Password or username?</span><br />
+        <span>Not a member yet? <span className="forgotname">Signup Now?</span> </span>
+        </div>
     </div>
-   
   );
 }
 
