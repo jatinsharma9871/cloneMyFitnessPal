@@ -1,6 +1,7 @@
 
 import React from 'react'
 import '../BeforeFood/BeforeFood.css'
+import {Link} from "react-router-dom"
 
 function BeforeFood() {
   return (<>
@@ -17,11 +18,11 @@ function BeforeFood() {
    <div className='all_carts'>
        <div className='cart_1'>
            <div><img src="https://www.myfitnesspal.com/react-static/b3754d3c0fff1f109ab484002e29f3a3.png" alt="" className='img_22'/></div>
-           <h3>10 Make-Ahead Breakfasts Under 300 Calories <span>MyFitnessPal Blog</span></h3>
+           <h3>10 Make-Ahead Breakfasts Under 300 Calories <br /> <span style={{color:"blue" ,fontSize:"16px"}}>MyFitnessPal Blog</span></h3>
        </div>
        <div className='cart_1'>
            <div><img src="https://www.myfitnesspal.com/react-static/fda07e55f2952750bad581ed72cfad0a.png" alt="" className='img_22'/></div>
-           <h3>10 Make-Ahead Breakfasts Under 300 Calories <span>MyFitnessPal Blog</span></h3>
+           <h3>Essential Guide to Getting Moving <br /> <span style={{color:"blue", fontSize:"16px"}}> MyFitnessPal Blog</span></h3>
        </div>
        
    </div>
