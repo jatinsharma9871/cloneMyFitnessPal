@@ -1,13 +1,15 @@
 import { useState } from 'react'
 import Premium from "./Components/Premium/Premium.jsx"
 import './App.css'
+import Blog from './Components/Blog/Blog.jsx'
 
 function App() {
 
 
   return (
     <div className="App">
-     <Premium />
+    <Blog/>
+     {/* <Premium /> */}
     </div>
   )
 }
