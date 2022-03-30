@@ -3,6 +3,30 @@ import "./Premium.css"
 import Typography from '@mui/material/Typography';
 
 function Premium() {
+
+
+  var premiumarr=[
+    {
+    title:"Premium",
+    url:"https://www.myfitnesspal.com/premium/",
+  },
+  {
+    title:"Premium",
+    url:"https://www.myfitnesspal.com/premium/",
+  },
+  {
+    title:"Premium",
+    url:"https://www.myfitnesspal.com/premium/",
+  },
+  {
+    title:"Premium",
+    url:"https://www.myfitnesspal.com/premium/",
+  },
+  {
+    title:"Premium",
+    url:"https://www.myfitnesspal.com/premium/",
+  },
+]
   return (
     <div className='Premium-container'>
     <h1>Premium</h1>
@@ -41,6 +65,25 @@ Free Trial Today</h1></Typography>
       </div>
     </div>
     </div>
+
+
+<div className="caraousel-container">
+  <h1></h1>
+  <div className="caraousel">
+  <button>Left</button>
+    <div className="caraousel-item">
+      <img src="https://www.myfitnesspal.com/react-static/e4537e1d014a66cb6083eb6025813bb6.png" alt="app"/> 
+</div>
+   <div className="caraousel-item">
+      <img src="https://www.myfitnesspal.com/react-static/e4537e1d014a66cb6083eb6025813bb6.png" alt="app"/> 
+</div>
+   <div className="caraousel-item">
+      <img src="https://www.myfitnesspal.com/react-static/e4537e1d014a66cb6083eb6025813bb6.png" alt="app"/> 
+</div>
+<button>Right</button>
+</div>
+
+
     <div className='outer-bottom'></div>
 <div className='jss140'>
     <div className='inner-bottom'>
@@ -55,6 +98,7 @@ Free Trial Today</h1></Typography>
 </div>
 
 
+    </div>
     </div>
   )
 }
