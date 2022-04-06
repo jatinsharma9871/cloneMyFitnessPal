@@ -1,0 +1,32 @@
+.component {
+  margin: auto;
+  margin-top: 100px;
+  /* border: 1px solid red; */
+  width: 60%;
+}
+
+.profile {
+  /* border: 1px solid red; */
+  width: 60%;
+  margin: auto;
+  display: flex;
+}
+
+.btnn {
+  margin-top: 20px;
+  margin-left: 20px;
+  background-color: #53a753;
+  border-radius: 5px;
+  width: 90%;
+  height: 35px;
+  color:azure;
+  border: transparent;
+}
+
+.color{
+  color: #3ea0d1;
+}
+
+.heading{
+  margin-bottom: 30px;
+}
